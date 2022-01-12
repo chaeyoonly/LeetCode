@@ -1,7 +1,11 @@
 class Solution(object):
     def rotate(self, nums, k):
-        length = len(nums) - k
-        if(len(nums) > 1):
-            rotate = nums[length:]
-            del nums[length:]
-            nums = rotate + nums
+        length = len(nums)
+        if(k >= length):
+            k = k % length
+        
+        length = length - k
+        rotate = nums[length:]
+        del nums[length:]
+        rotate.extend(nums)
+        nums[:] = rotate
