@@ -4,8 +4,10 @@
 ### BFS (Breadth First Search)
 + Queue : FIFO
 + Python BFS Code
-   from collections import deque
-   def dfs(graph, start, visited):
+   
+from collections import deque
+   
+def dfs(graph, start, visited):
        queue = deque([start]) 
        visited[start] = True
        while queue:
