@@ -1,8 +1,8 @@
 
 # BFS + DFS in python
 
-### BFS : Breadth First Search
-> Queue
+### BFS (Breadth First Search)
+> Queue : FIFO
 
-### DFS : Depth First Search
-> Stack
+### DFS (Depth First Search)
+> Stack : LIFO
