@@ -23,7 +23,3 @@ We would create a hash table with the key being current elements and the value b
 and we're storing the index because that's what the question is asking to return.
 '''
 
-
-### Hash table
-# f(key) -> hash code -> index -> value
-# 
