@@ -15,7 +15,7 @@ class Solution:
 # We can do a lot better than brute force using a concept called complement.
 # Complement : the number derived by subtracting a number from a base number. For example, the tens complement of 8 is 2.
 
-# Hash table way : time complexity is O of n which is linear time
+# Hash table solution : has an O(n) runtime as well as time complexity
 # We would create a hash table with the key being current elements and the value being the index of that elements
 # and we're storing the index because that's what the question is asking to return.
 
